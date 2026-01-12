@@ -17,7 +17,7 @@ jobs:
         python-version: '3.11'
     
     - name: Install dependencies
-      run: ls -la
+      run: pip install -r requirements.txt
     
     - name: Run Python script
-      run: python ./a.py
+      run: python a.py
